@@ -1,6 +1,6 @@
 @layer theme, base, components, utilities;
 
-@import "tailwindcss/theme" layer(theme);
+@import "tailwindcss/theme.css" layer(theme);
 @import "./theme/index.css" layer(theme);
 
 @import "./global/reset.css" layer(base);
@@ -11,4 +11,4 @@
 @import "./components/index.css" layer(components);
 @import "./utilities/index.css" layer(components);
 
-@import "tailwindcss/utilities" layer(utilities);
+@import "tailwindcss/utilities.css" layer(utilities);
