@@ -14,11 +14,12 @@ horizontally. Can be any acceptable flexbox aligmnent value.
 --cluster-vertical-alignment How items should align vertically.
 Can be any acceptable flexbox alignment value.
 */
-
-.cluster {
-  display: flex;
-  flex-wrap: wrap;
-  gap: var(--gutter, var(--space-s-m));
-  justify-content: var(--cluster-horizontal-alignment, flex-start);
-  align-items: var(--cluster-vertical-alignment, center);
+@layer components {
+  .cluster {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--gutter, var(--space-s-m));
+    justify-content: var(--cluster-horizontal-alignment, flex-start);
+    align-items: var(--cluster-vertical-alignment, center);
+  }
 }

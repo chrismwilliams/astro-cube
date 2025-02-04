@@ -1,8 +1,6 @@
 @theme {
   /* Disable Tailwind's default theme */
   --*: initial;
-  /* default gutter size */
-  --gutter: var(--space-s-l);
 }
 
 @import "./breakpoints.css";
