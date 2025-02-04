@@ -1,4 +1,4 @@
-@theme {
+@theme inline {
   --color-transparent: transparent;
   --color-dark: var(--color-black);
   --color-light: var(--color-gray-100);

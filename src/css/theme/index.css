@@ -1,8 +1,3 @@
-@theme {
-  /* default gutter size */
-  --gutter: var(--space-s-l);
-}
-
 @import "./breakpoints.css";
 @import "./colors.css";
 @import "./fonts.css";
