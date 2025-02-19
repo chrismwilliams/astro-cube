@@ -1,8 +1,8 @@
 # Astro CUBE
 
-Based on the [CUBE CSS Boilerplate](https://github.com/Set-Creative-Studio/cube-boilerplate). Uses Astro v5 and Tailwind CSS v4.0 Beta.
+Tailwind v3.4.17, disables most core plugins, sans preflight
 
-Uses Tailwind's `@theme` config rather than `.json` design-tokens, found in `src/css/theme/*.css`
+Based on the [CUBE CSS Boilerplate](https://github.com/Set-Creative-Studio/cube-boilerplate).
 
 ## Commands
 
