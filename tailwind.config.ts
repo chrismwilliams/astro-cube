@@ -49,28 +49,9 @@ export default {
     spacing,
     textColor: ({ theme }) => theme("colors"),
   },
-  experimental: {
-    optimizeUniversalDefaults: true,
-  },
   corePlugins: {
     // Disables Tailwind's reset
     preflight: false,
-    borderColor: false,
-    borderOpacity: false,
-    borderSpacing: false,
-    boxShadow: false,
-    display: false,
-    filter: false,
-    fontVariantNumeric: false,
-    backdropFilter: false,
-    ringWidth: false,
-    ringColor: false,
-    ringOffsetWidth: false,
-    ringOffsetColor: false,
-    textOpacity: false,
-    transform: false,
-    touchAction: false,
-    scrollSnapType: false,
   },
   plugins: [
     // Generates custom property values from tailwind config
