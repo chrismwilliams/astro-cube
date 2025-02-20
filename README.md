@@ -1,6 +1,6 @@
 # Astro CUBE
 
-Tailwind v4.0.3, disables all colours, sans preflight
+Tailwind v3.4.17, disables most core plugins, sans preflight
 
 Based on the [CUBE CSS Boilerplate](https://github.com/Set-Creative-Studio/cube-boilerplate).
 

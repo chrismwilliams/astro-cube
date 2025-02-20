@@ -4,7 +4,6 @@
   Low-specificity, global styles that apply to the whole 
   project: https://cube.fyi/css.html
 */
-
 :root {
   /* default gutter size */
   --gutter: var(--space-s-l);
@@ -15,5 +14,5 @@ body {
   color: var(--color-dark);
   font-size: var(--size-step-0);
   font-family: var(--font-base);
-  line-height: var(--line-height-standard);
+  line-height: var(--leading-standard);
 }
