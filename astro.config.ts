@@ -8,8 +8,5 @@ export default defineConfig({
   integrations: [
     sitemap(),
     tailwind({ applyBaseStyles: false, nesting: true }),
-  ],
-  build: {
-    inlineStylesheets: "never",
-  },
+  ]
 });
